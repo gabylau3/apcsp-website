@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ref Page</title>
+  </head>
+  <body>
+
+    <h1>Linux Quick Reference Page</h1>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+</style>
+
+<table style="width:100%">
+	<tr>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Example</th>
+	</tr>
+	<tr>
+		<td>cd</td>
+		<td>Change the directory</td>
+		<td>sp2a@rpi12:~ $ cd scripts
+		<br/>
+		sp2a@rpi12:~/scripts $ cd
+		<br/>
+		sp2a@rpi12:~ $</td>
+			</tr> 
+	<tr>
+		<td>pwd</td>
+		<td>Print the current working directory</td>
+		<td>sp2a@rpi12:~ $ cd scripts
+		<br/>sp2a@rpi12:~/scripts $ cd
+		<br/>sp2a@rpi12:~ $ </td>
+	<tr>
+		<td>ls</td>
+		<td>List directory contents</td>
+		<td>sp2a@rpi12:~ $ ls
+		<br/>play    work</td>
+	<tr>
+		<td>mkdir</td>
+		<td>Make a new directory</td>
+		<td>sp2a@rpi12:~ $ mkdir website
+		<br/>sp2a@rpi12:~ $ ls
+ 		<br/>play    work    website</td>
+	<tr>
+		<td>rm -rf</td>
+		<td>Remove directory and all files in directory (no warning).</td>
+		<td>sp2a@rpi12:~ $ rm -rf play
+		<br/>sp2a@rpi12:~ $ ls
+ 		<br/>work    website</td>
+	<tr>
+		<td>cp</td>
+		<td>Copy files and directories</td>
+		<td>sp2a@rpi12:~ $ cp /etc/passwd password
+		<br/>sp2a@rpi12:~ $ ls
+ 		<br/>work    website     password</td>
+	<tr>
+		<td>mv</td>
+		<td>Move files and directories</td>
+		<td>sp2a@rpi12:~ $ mv password work
+		</br>sp2a@rpi12:~ $ cd work
+		<br/>sp2a@rpi12:~/work $ ls
+		<br/>password </td>
+	<tr>
+		<td>echo</td>
+		<td>Display a line of tesk</td>
+		<td>sp2a@rpi12:~ $ echo $HELLO
+		<br/>Hey there</td>
+	<tr>
+		<td>nano</td>
+		<td>Make a script/file</td>
+		<td>sp2a@rpi12:~ $ nano myfirstbashscript</td>
+	<tr>
+		<td>chmod</td>
+		<td>Used to change permissions</td>
+		<td>sp2a@rpi12:~ $ chmod +x filename</td>
+
+
+
+
+
+
+
+</table>
+
+
+  </body>
+</html>
